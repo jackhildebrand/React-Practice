@@ -1,26 +1,26 @@
 import './App.css';
 
+function MyButton() {
+  return (
+    <button className='MyButton'>Play</button>
+  );
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+        <h3 className='name'>
+          yes
+        </h3>
+        <h3 className="user">
+          Jack Hildebrand
+        </h3>
+        <p className="updated">
+            UDATED MONDAY
         </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+        <MyButton />
       </header>
     </div>
   );

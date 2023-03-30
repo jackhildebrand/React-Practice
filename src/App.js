@@ -1,27 +1,22 @@
 import './App.css';
 
-function MyButton() {
-  return (
-    <button className='MyButton'>Play</button>
-  );
-}
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <h3 className='name'>
-          yes
-        </h3>
-        <h3 className="user">
-          Jack Hildebrand
-        </h3>
-        <p className="updated">
-            UDATED MONDAY
-        </p>
-        <MyButton />
-      </header>
+      <img src='Octocat.png' height={300} width={350} alt='img'></img>
+      <h1 className='playlistName'>
+        yes
+      </h1>
+      <h1 className='userName'>
+        Jack Hildebrand
+      </h1>
+      <h1 className='updated'>
+        UPDATED MONDAY
+      </h1>
+      <button className='playButton'>Play</button>
+      <button className='shuffleButton'>Shuffle</button>
+      <p className='song'>Jungle</p>
+      <p className='song'>way back</p>
     </div>
   );
 }

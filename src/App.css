@@ -27,6 +27,7 @@
   height: 50px;
   width: 150px;
   border-radius: 10px;
+  background:url('./public/icons/play.png') no-repeat left center;
 }
 
 .shuffleButton {
@@ -35,7 +36,7 @@
   font-size: medium;
   font-weight: bold;
   height: 50px;
-  width: 125px;
+  width: 150px;
   border-radius: 10px;
   margin-left: 25px;
 }
@@ -44,4 +45,25 @@
   text-align: left;
   margin-top: 25px;
   margin-left: 25px;
+}
+
+.wrapper {
+  text-align: center;
+  
+}
+
+.centered {
+  display: inline-block;
+  position: relative;
+}
+
+.left {
+  position: absolute;
+  right: 100%;
+  width: 100px;
+  top: 0;
+}
+
+.hr {
+  color: darkgray;
 }
